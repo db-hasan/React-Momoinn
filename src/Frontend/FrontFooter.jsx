@@ -2,7 +2,7 @@ import React from 'react'
 
 const FrontFooter = () => {
   return (
-    <div>FrontFooter</div>
+    <div className='text-center bg-warning'>FrontFooter</div>
   )
 }
 

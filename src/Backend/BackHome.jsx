@@ -10,8 +10,13 @@ const BackHome = () => {
     <>
     <BackHeader />
     <div className='d-flex'>
-        <Sidebar />
-        <Dashboard />
+        <div className='p-5'>
+          <Sidebar />
+        </div>
+        <div className='p-5'>
+          <Dashboard />
+        </div>
+        
     </div>
     <BackFooter />
     </>

@@ -6,7 +6,7 @@ const FrontHome = () => {
   return (
     < >
     <FrontHeader />
-    <div>FrontHome</div>
+    <div className='p-5'>FrontHome</div>
     <FrontFooter />
     </>
   )

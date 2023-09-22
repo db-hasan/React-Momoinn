@@ -11,10 +11,6 @@ import Booking from './Frontend/Booking'
 import About from './Frontend/About'
 import Contact from './Frontend/Contact'
 
-// import Service from './Frontend/Service'
-
-
-
 function App() {
   return (
     <BrowserRouter>

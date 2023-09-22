@@ -1,9 +1,9 @@
 import React from 'react'
 
-const FrontFooter = () => {
+const Footer = () => {
   return (
     <div className='text-center bg-warning'>FrontFooter</div>
   )
 }
 
-export default FrontFooter
+export default Footer

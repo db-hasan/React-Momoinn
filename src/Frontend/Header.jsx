@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <div id='header'>
@@ -34,7 +34,10 @@ const Header = () => {
                 <li className="nav-item">
                   <Link className="nav-link" to="/contact">Contact</Link>
                 </li>
-                <button className="btn btn-outline-warning text-light" type="submit"><Link to="/booking">Booking</Link></button>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/service">Service</Link>
+                </li>
+                <button className="btn btn-outline-warning" type="submit"><Link className='text-light' to="/booking">Booking</Link></button>
               </ul>
             </div>
           </div>
